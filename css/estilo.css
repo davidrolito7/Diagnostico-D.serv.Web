@@ -1,0 +1,38 @@
+/* Estilos para el cuerpo (body) */
+
+body {
+    display: flex;           /* Flex container */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Altura del viewport */
+    margin: 0;               /* Sin margen */
+    background-color: blanchedalmond;
+}
+
+/* Estilos para el div con la clase "cuadro" */
+
+.cuadro {
+    background-color: aqua;
+    background-image: url(../img/montana.png); /* Ruta relativa */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover;
+    display: flex;           /* Flex container */
+    flex-direction: column;  /* Organiza elementos en columna */
+    align-items: center;     /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    width: 300px;            /* Ancho del div */
+    padding: 20px;           /* Relleno interno */
+    border: 1px solid rgba(44, 20, 20, 0.1);  /* Borde con opacidad */
+    border-radius: 8px;      /* Esquinas redondeadas */
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.8);  /* Sombra */
+
+    text-decoration-color: blanchedalmond;
+}
+
+.cuadro p {
+  color: white;
+}
+
+.cuadro  {
+    color: white;
+  }
